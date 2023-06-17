@@ -71,8 +71,11 @@ make V=s -j$(nproc)
 
 
 lean固件添加passwall
+
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
+
 git clone https://github.com/kenzok8/small.git package/small
+
 
 执行上述两行命令后可在menu config菜单中看到luci-app-passwall
